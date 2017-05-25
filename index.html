@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Книжный интернет-магазин "Твой выбор!"</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+  <body>
+    <header class="main-head">
+      <div class="header-top-row">
+        <div class="social">
+          <a href="#" class="social__icon"><img class="social__img" src="i/facebook.png" alt=""></a>
+          <a href="#" class="social__icon"><img class="social__img" src="i/vk.png" alt=""></a>
+          <a href="#" class="social__icon"><img class="social__img" src="i/twitter.jpg" alt=""></a>
+        </div>
+        <div class="login-box">
+          <img src="i/user.png" alt="user" class="login-box__img">
+          <a href="#" class="login-box__entry">вход</a>
+          <span class="login-box__slash">/</span>
+          <a href="#" class="login-box__reg">регистрация</a>
+        </div>
+      </div>
+      
+      <div class="container">
+        <div class="site-logo">
+          <a href="#" class="site-logo__link"><img class="site-logo__img" src="books/book.png" alt="Nalabuten.ah"></a>
+          <div class="logo-name">
+            <div class="logo-name__shop-name">Твой выбор!</div>
+            <span class="logo-name__shop">книжный интернет-магазин</span>
+          </div>
+        </div>
+        <form class="search-form" action="#" method="post">
+          <input type="search" title="" class="search-form__input" placeholder="поиск" name="search">
+          <img class="search-form__btn" src="i/search-icon.png" alt="Click">
+        </form>
+        <div class="shopping-cart">
+          <a href="#" class="shopping-cart__link"><img class="shopping-cart__img" src="i/cart.png" alt=""></a>
+          <div class="buy">
+            <div class="shopping-cart__cart">КОРЗИНА</div>
+            <span class="shopping-cart__buy">покупок</span><span class="shopping-cart__num">0</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav class="nav">
+      <ul class="m-menu">
+        <li class="m-menu__elem m-menu__elem--active"><a class="m-menu__link" href="#">КАТАЛОГ</a></li>
+        <li class="m-menu__elem"><a class="m-menu__link" href="#">АКЦИИ</a></li>
+        <li class="m-menu__elem"><a class="m-menu__link" href="#">О НАС</a></li>
+        <li class="m-menu__elem"><a class="m-menu__link" href="#">БЛОГ</a></li>
+      </ul>
+    </nav>
+
+    <div class="carousel">
+      <span class="slider__btn slider__btn--pre">&#8249;</span>
+      <div class="carousel-item">
+        <img src="books/HTML5_HeadFirst%20.png" width="300" alt="" class="carousel-item__img">
+        <div class="carousel-product">
+          <h2 class="carousel-product__cap">Изучаем программирование</h2>
+          <h2 class="carousel-product__subtitle">на HTML5</h2>
+          <p class="carousel-product__description">Мы рады представить вам переиздание популярной книги</p>
+          <button class="carousel-product__btn">КУПИТЬ СЕЙЧАС</button>
+        </div>
+      </div>
+      <span class="slider__btn slider__btn--next">&#8250;</span>
+    </div>
+
+    <section class="actions">
+      <div class="actions-news">
+        <a class="actions-news__link" href="#">Подарочные <br> сертификаты</a>
+      </div>
+      <div class="actions-news">
+        <a class="actions-news__link" href="#">Скидка 15% <br> в день рождения</a>
+      </div>
+      <div class="actions-news">
+        <a class="actions-news__link" href="#">Остатки от тиражей <br> по выгодным ценам</a>
+      </div>
+    </section>
+
+    <section class="main-wrapper">
+
+      <div class="products">
+        <div class="item">
+          <div class="product-item">
+            <img class="product-item__img" src="books/Adobe%20Illustrator%20CS5.png" width="200" alt="">
+            <div class="product-item__subtitle">ADOBE ILLUSTRATOR</div>
+            <div class="product-item__description">Официальный учебный курс</div>
+            <div class="product-item__price">1500 руб.</div>
+          </div>
+          <div class="product-btn">
+            <div class="product-btn__cart"><img class="product-img__cart" src="i/cart.png" alt="bay"></div>
+            <div class="product-btn__info"><img class="product-img__info" src="i/info.png" alt="info"></div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="product-item">
+            <img class="product-item__img" src="books/Adobe%20InDesign%20CS5.png" width="200" alt="">
+            <div class="product-item__subtitle">ADOBE INDESIGN</div>
+            <div class="product-item__description">Официальный учебный курс</div>
+            <div class="product-item__price">1500 руб.</div>
+          </div>
+          <div class="product-btn">
+            <div class="product-btn__cart"><img class="product-img__cart" src="i/cart.png" alt="bay"></div>
+            <div class="product-btn__info"><img class="product-img__info" src="i/info.png" alt="info"></div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="product-item">
+            <img class="product-item__img" src="books/HeadFirst-HTML,%20XHTML,%20CSS.png" width="200" alt="">
+            <div class="product-item__subtitle">Изучаем HTML, XHTML и CSS</div>
+            <div class="product-item__description">2-е издание</div>
+            <div class="product-item__price">1200 руб.</div>
+          </div>
+          <div class="product-btn">
+            <div class="product-btn__cart"><img class="product-img__cart" src="i/cart.png" alt="bay"></div>
+            <div class="product-btn__info"><img class="product-img__info" src="i/info.png" alt="info"></div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="product-item">
+            <img class="product-item__img" src="books/CSS.png" width="200" alt="">
+            <div class="product-item__subtitle">Большая книга CSS</div>
+            <div class="product-item__description">Дэвид Макфарланд</div>
+            <div class="product-item__price">1300 руб.</div>
+          </div>
+          <div class="product-btn">
+            <div class="product-btn__cart"><img class="product-img__cart" src="i/cart.png" alt="bay"></div>
+            <div class="product-btn__info"><img class="product-img__info" src="i/info.png" alt="info"></div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="product-item">
+            <img class="product-item__img" src="books/JavaScript.png" width="200" alt="">
+            <div class="product-item__subtitle">Изучаем JavaScript</div>
+            <div class="product-item__description">Эрих Фримен, Элизабет Робсон</div>
+            <div class="product-item__price">1200 руб.</div>
+          </div>
+          <div class="product-btn">
+            <div class="product-btn__cart"><img class="product-img__cart" src="i/cart.png" alt="bay"></div>
+            <div class="product-btn__info"><img class="product-img__info" src="i/info.png" alt="info"></div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="product-item">
+            <img class="product-item__img" src="books/iQuery.png" width="200" alt="">
+            <div class="product-item__subtitle">Изучаем работу с jQuery</div>
+            <div class="product-item__description">Райан Бенедетти, Роман Крэнли</div>
+            <div class="product-item__price">1200 руб.</div>
+          </div>
+          <div class="product-btn">
+            <div class="product-btn__cart"><img class="product-img__cart" src="i/cart.png" alt="bay"></div>
+            <div class="product-btn__info"><img class="product-img__info" src="i/info.png" alt="info"></div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="product-item">
+            <img class="product-item__img" src="books/HTML5.png" width="200" alt="">
+            <div class="product-item__subtitle">HTML5</div>
+            <div class="product-item__description">Готовые решения для веб-разработки</div>
+            <div class="product-item__price">1300 руб.</div>
+          </div>
+          <div class="product-btn">
+            <div class="product-btn__cart"><img class="product-img__cart" src="i/cart.png" alt="bay"></div>
+            <div class="product-btn__info"><img class="product-img__info" src="i/info.png" alt="info"></div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="product-item">
+            <img class="product-item__img" src="books/JavaScript2.png" width="200" alt="">
+            <div class="product-item__subtitle">Сильные стороны JavaScript</div>
+            <div class="product-item__description">Дуглас Крокфорд</div>
+            <div class="product-item__price">1300 руб.</div>
+          </div>
+          <div class="product-btn">
+            <div class="product-btn__cart"><img class="product-img__cart" src="i/cart.png" alt="bay"></div>
+            <div class="product-btn__info"><img class="product-img__info" src="i/info.png" alt="info"></div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <footer class="footer">
+      <div class="footer-top-row">
+        <div class="footer-top-row__elem">Разделы</div>
+        <div class="footer-top-row__elem">Покупателям</div>
+        <div class="footer-top-row__elem">Контакты</div>
+      </div>
+
+      <section class="footer-wrapper">
+        <div class="footer-catalog">
+          <ul class="footer-menu">
+            <li class="footer-menu__list"><a class="footer-menu__link" href="#">Программирование</a></li>
+            <li class="footer-menu__list"><a class="footer-menu__link" href="#">Исторические</a></li>
+            <li class="footer-menu__list"><a class="footer-menu__link" href="#">Художественные</a></li>
+            <li class="footer-menu__list"><a class="footer-menu__link" href="#">По бизнесу</a></li>
+            <li class="footer-menu__list"><a class="footer-menu__link" href="#">Детские</a></li>
+          </ul>
+        </div>
+        <div class="footer-buyers">
+          <ul class="footer-menu">
+            <li class="footer-menu__list"><a class="footer-menu__link" href="#">Анонсы</a></li>
+            <li class="footer-menu__list"><a class="footer-menu__link" href="#">Доставка</a></li>
+            <li class="footer-menu__list"><a class="footer-menu__link" href="#">Оплата</a></li>
+            <li class="footer-menu__list"><a class="footer-menu__link" href="#">Скидки</a></li>
+            <li class="footer-menu__list"><a class="footer-menu__link" href="#">Новинки</a></li>
+          </ul>
+        </div>
+        <div class="contact">
+          <a href="#" class="contact__social"><img class="contact__social__img" src="i/facebook.png" alt=""></a>
+          <a href="#" class="contact__social"><img class="contact__social__img" src="i/vk.png" alt=""></a>
+          <a href="#" class="contact__social"><img class="contact__social__img" src="i/twitter.jpg" alt=""></a>
+          <div class="contact_number">+7(915)458-75-65</div>
+          <div class="contact_number">+7(915)458-75-65</div>
+        </div>
+      </section>
+
+      <p class="side-name">Твой выбор 2017</p>
+    </footer>
+  </body>
+</html>
