@@ -215,6 +215,11 @@ body {
     font-size: 12px;
 }
 
+
+.product-item__img {
+    width: 200px;
+}
+
 .product-item__price {
     padding-top: 20px;
     padding-bottom: 15px;
