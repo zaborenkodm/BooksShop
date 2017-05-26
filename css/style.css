@@ -96,18 +96,34 @@ body {
 
 .nav {
     background-color: #A56640;
-    line-height: 30px;
+    min-height: 40px;
 }
 
 .m-menu {
+    list-style-type: none;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.m-menu__elem {
+    flex-basis: auto;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.m-menu__elem:not(:last-child) {
+    border-right: 1px solid;
 }
 
 .m-menu__link {
+    line-height: 40px;
     text-decoration: none;
-    color: white;
+    color: inherit;
     font-size: 14px;
+    display: block;
     transition: color 0.2s;
 }
 
