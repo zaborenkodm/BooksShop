@@ -214,7 +214,10 @@
 }
 
 @media screen and (max-width: 700px) {
-    .carousel-item, .container {
+    body {
+        width: 100%;
+    }
+    .carousel-item, .container, .footer-wrapper {
         flex-wrap: wrap;
     }
     .search-form__btn {
@@ -222,6 +225,21 @@
     }
 
     .search-form, .shopping-cart {
+        padding-left: 25px;
+    }
+
+    .contact, .footer-top-row__contact, .footer-top-row__users {
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-top-row__contact, .footer-top-row__users {
+        padding-left: 25px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .carousel-product {
         padding-left: 25px;
     }
 }
@@ -238,11 +256,5 @@
     .actions-news {
         width: 600px;
         margin-top: 20px;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .carousel-product {
-        padding-left: 25px;
     }
 }
