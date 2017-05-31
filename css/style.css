@@ -214,50 +214,75 @@ body {
     font-size: 18px;
 }
 
-
-/*@supports (display: grid)
+@supports (display: grid)
 {
-    body {
+    .footer-top-row {
         display: grid;
-
-        grid-template-columns: repeat(12, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 20px;
-
-        grid-template-rows: [login] 35px [logo] 95px [nav] 40px [carousel] 400px
-            [actions] 150px [retreat1] 25px [product1] 355px [product2] 370px
-            [footer_menu] 50px [footer_wrapper] 200px;
+        grid-template-rows: 100%;
+        margin: 0;
+        padding: 0;
+        grid-template-areas: "footer-top-row__item footer-top-row__users footer-top-row__contact";
     }
 
-    .main-head {
-        grid-column: 1/12;
-        grid-row: login/logo;
+    .footer-top-row__item {
+        width: auto;
+        padding-left: 30px;
+        margin: 0;
+        grid-area: footer-top-row__item;
     }
 
-    .nav {
-        grid-column: 1/12;
-        grid-row: nav/nav;
-        justify-self: stretch;
+    .footer-top-row__users {
+        width: auto;
+        padding-left: 100px;
+        margin: 0;
+        grid-area: footer-top-row__users;
     }
 
-    .carousel {
-        grid-column: 1/12;
-        grid-row: carousel/carousel;
+    .footer-top-row__contact {
+        width: auto;
+        padding-left: 100px;
+        margin: 0;
+        grid-area: footer-top-row__contact;
     }
 
-    .actions {
-        grid-column: 1/12;
-        grid-row: actions/actions;
+    .footer-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 20px;
+        grid-template-rows: 100%;
+        margin: 0;
+        padding: 0;
+        grid-template-areas: "footer-catalog footer-buyers contact";
     }
 
-    .main-wrapper {
-        grid-column: 1/12;
-        grid-row-start: product1;
-        grid-row-end: product2;
+    .footer-catalog {
+        width: auto;
+        padding-left: 30px;
+        margin: 0;
+        grid-area: footer-catalog;
     }
 
-    .footer {
-        grid-column: 1/12;
-        grid-row-start: footer_menu;
-        grid-row-end: footer_wrapper;
+    .footer-buyers {
+        width: auto;
+        padding-left: 100px;
+        margin: 0;
+        grid-area: footer-buyers;
     }
-}*/
+
+    .contact {
+        width: auto;
+        padding-left: 100px;
+        margin: 0;
+        grid-area: contact;
+    }
+
+    @media screen and (max-width: 720px) {
+        .footer-top-row__item, .footer-top-row__users, .footer-top-row__contact,
+        .footer-catalog, .footer-buyers, .contact {
+            padding: 0;
+            margin: 0;
+        }
+    }
+}
