@@ -42,8 +42,8 @@ body {
     opacity: .7;
 }
 
-.search-form__btn {
-    height: 30px;
+.search-form__img {
+    height: 28px;
 }
 
 .shopping-cart__img {
@@ -97,6 +97,16 @@ body {
     min-width: 390px;
     line-height: 50px;
     background-color: #A56640;
+    cursor: pointer;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .2s ease-out;
+    box-shadow: none;
+}
+
+.actions-news:hover {
+    -webkit-transform: scale(1.04) translate3d(0, 0, 0);
+    transform: scale(1.04) translate3d(0, 0, 0);
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.2), 4px 8px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
 .actions-news__link {
@@ -105,10 +115,15 @@ body {
     font-size: 22px;
 }
 
-.slider__btn {
-    color: #8f8f8f;
-    font-size: 160px;
+.carousel-img__left, .carousel-img__right {
+    height: 80px;
+    width: 80px;
+    opacity: .4;
     cursor: pointer;
+}
+
+.carousel-img__left:hover, .carousel-img__right:hover {
+    opacity: .7;
 }
 
 .carousel-item__img {
@@ -130,6 +145,7 @@ body {
     border: 1px solid #A56640;
     width: 130px;
     height: 35px;
+    cursor: pointer;
 }
 
 .products {
@@ -163,17 +179,33 @@ body {
     height: 28px;
 }
 
+.product-btn__cart, .product-img__info, .shopping-cart__img, .search-form__img {
+    cursor: pointer;
+    -webkit-transition: all .2s ease-out;
+    transition: all .3s ease-out;
+    box-shadow: none;
+}
+
+.product-btn__cart:hover, .product-img__info:hover,
+.shopping-cart__img:hover, .search-form__img:hover {
+    -webkit-transform: scale(1.03) translate3d(0, 0, 0);
+    transform: scale(1.03) translate3d(0, 0, 0);
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 2px 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
 .product-btn__info {
     height: 20px;
 }
 
 .product-img__cart {
     border: 1px solid gray;
+    height: 26px;
 }
 
 .product-img__info {
     border: 1px solid gray;
     opacity: .6;
+    height: 20px;
 }
 
 .footer {
@@ -192,6 +224,10 @@ body {
 .footer-menu__link {
     text-decoration: none;
     color: white;
+}
+
+.footer-menu__link:hover {
+    color: black;
 }
 
 .side-name {

@@ -112,12 +112,8 @@
     justify-content: space-between;
 }
 
-.slider__btn {
-    padding-top: 70px;
-}
-
-.slider__btn--next {
-    /*padding-left: 180px;*/
+.carousel-btn {
+    padding-top: 120px;
 }
 
 .carousel-item {
@@ -166,7 +162,7 @@
 }
 
 .product-img__info {
-    padding: 5px 11px;
+    padding: 0 5px;
 }
 
 .footer {
@@ -235,6 +231,13 @@
 
     .footer-top-row__contact, .footer-top-row__users {
         padding-left: 25px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .carousel {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
