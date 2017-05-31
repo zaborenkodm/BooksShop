@@ -148,6 +148,11 @@ body {
     cursor: pointer;
 }
 
+.carousel-product__btn:hover {
+    background: #A56640;
+    color: white;
+}
+
 .products {
     display: flex;
     justify-content: space-around;
