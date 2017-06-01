@@ -1,3 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    order: 1;
+}
+
+nav {
+    order: 2;
+}
+
+.carousel {
+    order: 3;
+}
+
+.actions {
+    order: 4;
+}
+
+main {
+    order: 5;
+}
+
+footer {
+    order: 999;
+}
+
 .header-top-row {
     padding-top: 5px;
     display: flex;
