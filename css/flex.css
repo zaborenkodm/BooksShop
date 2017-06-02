@@ -52,13 +52,12 @@ footer {
 }
 
 .search-form__input {
-    margin-top: 31px;
+    margin-top: 22px;
 }
 
 .search-form__btn {
-    display: flex;
     margin: auto;
-    padding-top: 14px;
+    /*padding-top: 14px;*/
 }
 
 .shopping-cart {
@@ -172,6 +171,12 @@ footer {
     padding-bottom: 20px;
 }
 
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 .product-item {
     padding-left: 10px;
     padding-top: 10px;
@@ -226,7 +231,7 @@ footer {
 }
 
 .contact-social__fb {
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .contact-social__vk {
@@ -246,7 +251,7 @@ footer {
         flex-wrap: wrap;
     }
     .search-form__btn {
-        margin-top: 16px;
+        margin-top: 20px;
     }
 
     .search-form, .shopping-cart {

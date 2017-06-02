@@ -2,10 +2,14 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Книжный интернет-магазин "Твой выбор!"</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/flex.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <script src="js/jquery-3.2.1.min.js"></script>
 </head>
   <body>
     <header class="main-head">
@@ -16,7 +20,7 @@
           <a href="#" class="social__icon"><img class="social__img img-tw" src="i/twitter.svg" alt=""></a>
         </div>
         <div class="login-box">
-          <img src="i/user1.png" alt="user" class="login-box__img">
+          <img src="i/user.svg" aria-hidden="true" alt="user" class="login-box__img">
           <a href="#" class="login-box__entry">вход</a>
           <span class="login-box__slash">/</span>
           <a href="#" class="login-box__reg">регистрация</a>
@@ -25,7 +29,7 @@
       
       <div class="container">
         <div class="site-logo">
-          <a href="#" class="site-logo__link"><img class="site-logo__img" src="books/book.png" alt="BooksShop"></a>
+          <a href="#" class="site-logo__link"><img class="site-logo__img" src="i/book.svg" alt="BooksShop"></a>
           <div class="logo-name">
             <div class="logo-name__shop-name">Твой выбор!</div>
             <span class="logo-name__shop">книжный интернет-магазин</span>
@@ -33,7 +37,7 @@
         </div>
         <form class="search-form" action="#" method="post">
           <input type="search" title="" class="search-form__input" placeholder="  поиск" name="search">
-          <div class="search-form__btn"><img class="search-form__img" src="i/search.svg" alt="Click"></div>
+          <button class="search-form__btn"><img class="search-form__img" src="i/search.svg" alt="Click"></button>
         </form>
         <div class="shopping-cart">
           <a href="#" class="shopping-cart__link"><img class="shopping-cart__img" src="i/cart.svg" alt=""></a>
@@ -183,8 +187,6 @@
       </div>
     </div>
 
-
-
     <footer class="footer">
       <div class="footer-top-row">
         <div class="footer-top-row__elem footer-top-row__item">Разделы</div>
@@ -212,9 +214,9 @@
           </ul>
         </div>
         <div class="contact">
-          <a href="#" class="contact-social"><img class="contact-social__img contact-social__fb" src="i/f-w.png" alt=""></a>
+          <a href="#" class="contact-social"><img class="contact-social__img contact-social__fb" src="i/f_w.svg" alt=""></a>
           <a href="#" class="contact-social"><img class="contact-social__img contact-social__vk" src="i/VK_w.svg" alt=""></a>
-          <a href="#" class="contact-social"><img class="contact-social__img contact-social__tw" src="i/twitter_w.gif" alt=""></a>
+          <a href="#" class="contact-social"><img class="contact-social__img contact-social__tw" src="i/twitter_w.svg" alt=""></a>
           <div class="contact-number">+7(915)458-75-65</div>
           <div class="contact-number">+7(915)458-75-65</div>
         </div>
