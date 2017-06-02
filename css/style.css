@@ -135,6 +135,23 @@ body {
     font-size: 22px;
 }
 
+.carousel-item {
+    /*position: absolute;    */
+    display: none;
+    transition: opacity 0.5s;
+}
+
+.carousel-item__visible {
+    display: flex;
+    z-index: 1;
+}
+
+.carousel-product__author {
+    font-size: 18px;
+    padding-top: 15px;
+    color: grey;
+}
+
 .carousel-img__left, .carousel-img__right {
     height: 80px;
     width: 80px;
