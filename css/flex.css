@@ -268,13 +268,6 @@ footer {
     }
 }
 
-@media screen and (max-width: 720px) {
-    .carousel {
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-
 @media screen and (max-width: 900px) {
     .carousel-product {
         padding-left: 25px;
