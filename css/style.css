@@ -195,6 +195,10 @@ body {
     width: 250px;
 }
 
+.product-item:hover {
+    box-shadow: 0 0 10px #06030b;
+}
+
 .product-item__subtitle {
     font-size: 18px;
 }
